@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Django on GCP</title>
+</head>
+<body>
+    <h1>Testing static resources</h1>
+    <img src="{% static 'private_img.jpg' %}" alt="Private IMG">
+    <img src="{% static 'public_img.jpg' %}" alt="Public IMG">
+</body>
+</html>
